@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 RSpec.describe 'Parking Lot' do
-  let(:pty) { PTY.spawn('bin/parking_lot') }
+  let(:pty) { PTY.spawn('parking_lot') }
 
   before(:each) do
     run_command(pty, "create_parking_lot 3\n")
