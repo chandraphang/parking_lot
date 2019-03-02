@@ -8,3 +8,4 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'byebug', '8.2.4'
 gem 'pry-byebug'
+gem 'rspec-rails', '~> 3.7.1'
